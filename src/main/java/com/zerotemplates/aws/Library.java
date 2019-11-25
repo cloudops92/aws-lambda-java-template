@@ -3,8 +3,14 @@
  */
 package com.zerotemplates.aws;
 
+import com.amazonaws.services.lambda.runtime.Context;
+import com.amazonaws.services.lambda.runtime.LambdaLogger;
+
 public class Library {
-    public boolean someLibraryMethod() {
-        return true;
+
+    public String myHandler(int myCount, Context context) {
+        LambdaLogger logger = context.getLogger();
+        logger.log("received : " + myCount);
+        return String.valueOf(myCount);
     }
 }
