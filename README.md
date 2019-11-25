@@ -2,7 +2,9 @@
 
 ![](https://github.com/zero-templates/aws-lambda-java-template/workflows/aws-lambda-java-template-ci/badge.svg)
 
-This is java aws-lambda-java template. This template allows to build AWS lambda seamlessly.
+This is java aws-lambda-java template. This template allows to build [AWS Lambda](https://aws.amazon.com/lambda/) seamlessly.
+
+**AWS Developer Guide**: <https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html>
 
 ## Developing
 
