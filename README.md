@@ -25,6 +25,6 @@ $ ./gradlew [Targets]
     Compile the classes and generate build.
     Build can be found under `build/libs/{app_name}.jar` directory.
 
-## Overview
+## Communication
 
-- **Maintainer**: mishalshah92@gmail.com
+- **Email**: lazzy.leoo@gmail.com
