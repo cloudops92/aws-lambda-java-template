@@ -1,6 +1,6 @@
 # aws-lambda-java-template
 
-![](https://github.com/lazy-leo/aws-lambda-java-template/workflows/aws-lambda-java-template-ci/badge.svg)
+![](https://github.com/mishalshah92/aws-lambda-java-template/workflows/aws-lambda-java-template-ci/badge.svg)
 
 This is java aws-lambda-java template. This template allows to build [AWS Lambda](https://aws.amazon.com/lambda/) seamlessly.
 
@@ -27,4 +27,4 @@ $ ./gradlew [Targets]
 
 ## Communication
 
-- **Email**: lazzy.leoo@gmail.com
+- **Email**: mishalshah92@gmail.com
