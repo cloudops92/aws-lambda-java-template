@@ -29,7 +29,7 @@ $ ./gradlew [Targets]
 
     Executes jUnit `test` of the lambda function. 
 
-## Communication
+## Overview
 
 - **Build Pipeline**: <https://github.com/mishalshah92/aws-lambda-java-template/actions>
 - **Email**: mishalshah92@gmail.com
