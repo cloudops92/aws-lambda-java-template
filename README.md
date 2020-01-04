@@ -1,6 +1,6 @@
 # aws-lambda-java-template
 
-![](https://github.com/mishalshah92/aws-lambda-java-template/workflows/aws-lambda-java-template-ci/badge.svg)
+![](https://github.com/mishalshah92/aws-lambda-java-template/workflows/gradle-ci/badge.svg)
 
 This is java aws-lambda-java template. This template allows to build [AWS Lambda](https://aws.amazon.com/lambda/) seamlessly.
 
@@ -23,8 +23,13 @@ $ ./gradlew [Targets]
 - `$ ./gradlew build`
 
     Compile the classes and generate build.
-    Build can be found under `build/libs/{app_name}.jar` directory.
+    Build can be found under `build/distributions/{app_name}.jar` directory.
+
+- `$ ./gradlew test`
+
+    Executes jUnit `test` of the lambda function. 
 
 ## Communication
 
+- **Build Pipeline**: <https://github.com/mishalshah92/aws-lambda-java-template/actions>
 - **Email**: mishalshah92@gmail.com
